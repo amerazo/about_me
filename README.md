@@ -26,7 +26,7 @@ As someone interested in technology trends and advancements, I'm excited to invi
 ### Programming Languages
 
 <p align="center">
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flogos-world.net%2Fjavascript-logo%2F&psig=AOvVaw1bqeIiRt9hl6VqB5nYZCuG&ust=1693609849686000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJiJu72CiIEDFQAAAAAdAAAAABAE" alt="JavaScript Logo" width="100" height="100">
+  <img src="https://www.freepnglogos.com/uploads/javascript-png/png-javascript-badge-picture-8.png" alt="JavaScript Logo" width="100" height="100">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ2I-ldjzKQRJX1boL2V3ieuDWA0LZFrIzfboKLP0vEg&s" alt="HTML Logo" width="100" height="100">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS Logo" width="100" height="100">
 </p>
