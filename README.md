@@ -37,4 +37,16 @@ As someone interested in technology trends and advancements, I'm excited to invi
 
 - **CSS:** Cascading Style Sheets (CSS) will help me style and design and I plan to use Tailwind CSS.
 
+------------------
+### MVP & Stretch 
+
+| **MVP**    | Create an app with a main page and two engaging subpages.      
+| **MVP**    | Deploy the app to make it accessible to a wider audience.     
+| **MVP**    | Write working code in HTML, JavaScript, and CSS.             
+| **Stretch**| Incorporate Tailwind CSS to enhance app's design.              | 
+
+
+
+
+
 
