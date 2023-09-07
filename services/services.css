@@ -1,0 +1,109 @@
+/* default syles for simplicy sake */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* full-page background detz*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+}
+
+/* side bar nav styles */
+nav {
+    flex: 10 10 20%; /* sidebar width */
+    background-color: #333;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* sidebar is a column layout */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    flex-grow: 1; /* list to take the remaining space */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* main content */
+main {
+    flex: 0 0 80%; /*  main content width */
+    margin-left: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* service card styles */
+.service-card {
+    width: 100%;
+    height: 250px;
+    perspective: 1000px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.flip-container {
+    width: 100%;
+    height: 100%;
+}
+
+.flipper {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-style */
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.service-card:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.front {
+    background-color: #fff;
+}
+
+.back {
+    background-color: #f0f0f0;
+    transform: rotateY(180deg);
+}
+
+/* footer style */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: auto; /* footer to the bottom */
+} 
+

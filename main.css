@@ -1,0 +1,113 @@
+h1, h2 {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+    
+}
+
+h2 {
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 10000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    flex-grow: 1;
+}
+
+/* coding languages icons */
+ul.flex li img {
+    border: 2px solid #333;
+    border-radius: 70%;
+    padding: 4px;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+/* height and width of the profile picture */
+.rounded-full {
+    overflow: hidden;
+    height: 300px;
+    width: 300px; 
+}
+
+.portfolio-container {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* hide profile pic for mobile && iPad */
+@media (max-width: 767px) {
+    .rounded-full {
+      display: none;
+    }
+  }
+  
+@media (max-width: 1024px) {
+    .rounded-full {
+        display: none;
+    }
+}
+
+@media (max-width: 1338px) {
+    .rounded-full {
+        display: none;
+    }
+}
+
+/* hide nav menu by default for smaller screens */
+#navMenu {
+    display: none;
+}
+
+/* Style the navigation menu for larger screens */
+@media (min-width: 768px) {
+    #navMenu {
+        display: block;
+    }}
+
+/* side bar nav styles */
+nav {
+    flex: 10 10 20%; /* sidebar width */
+    background-color: #333;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; /* sidebar is a column layout */
+}
+
+footer {
+    bottom: 10px;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+}

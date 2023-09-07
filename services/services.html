@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Angelica Erazo</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="services.css">
+    <script src="services.js"></script>
+</head>
+<body class="bg-gray-100 flex flex-col md:flex-row">
+    <!-- Sidebar Nav -->
+    <nav class="w-full md:w-1/4 bg-blue-500 p-4 text-white">
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/services/services.html">SERVICES</a></li>
+            <li><a href="/resources/resources.html">RESOURCES</a></li>
+            <li><a href="https://docs.google.com/document/d/e/2PACX-1vS2IvjtLebdUsGGj85bQSQuxPGR67Zf16nlKtWUC66OLyc06Znlv57Rj9tEPG_S7w/pub">RESUME</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Container Content -->
+    <main class="w-full md:w-3/4 p-4">
+        <div class="container mx-auto my-8 p-4 bg-white rounded-lg shadow-lg">
+            <h2 class="text-2xl font-semibold mb-4">Services Offered</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                <!-- Service Card 1 -->
+                <div class="service-card md:w-1/2" onclick="flipCard(this)">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <h3 class="text-xl font-semibold">Front-End Web Design</h3>
+                                <p>My front-end web design services are all about turning your vision into a visually stunning and user-friendly website. I specialize in creating the look and feel of your online presence, ensuring that your website not only captures your brand's essence but also provides an exceptional user experience.</p>
+                            </div>
+                            <div class="back">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, commodi deserunt? Consectetur veritatis iste ab voluptatibus. Asperiores nihil id maiores impedit reiciendis error repudiandae, magnam itaque adipisci nostrum sed nesciunt!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card md:w-1/2" onclick="flipCard(this)">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <h3 class="text-xl font-semibold">Cyber Security Consulting & Tutoring</h3>
+                                <p>We work closely with your organization to assess your current security posture, identify vulnerabilities, and develop comprehensive cybersecurity strategies tailored to your specific needs. Our team of experts helps you stay ahead of evolving threats, implement robust security measures, and ensure compliance with industry regulations.</p>
+                            </div>
+                            <div class="back">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, animi amet voluptates modi quas fuga, explicabo quia itaque quisquam praesentium rerum illum. Eaque autem praesentium voluptas ex magnam provident beatae!.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card md:w-1/2" onclick="flipCard(this)">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <h3 class="text-xl font-semibold">Speaking Opportunities</h3>
+                                <p>I bring valuable experience and expertise to conferences across a range of topics. Whether it's technology trends, leadership strategies, or industry-specific insights, my presentations are designed to captivate and inform your audience. I tailor my talks to the unique themes and goals of your event, ensuring that attendees leave with actionable takeaways.</p>
+                            </div>
+                            <div class="back">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum sit, voluptatibus ea magnam facere adipisci rem error id vero, asperiores explicabo iure, mollitia unde dolore labore! A eos eveniet eaque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card md:w-1/2" onclick="flipCard(this)">
+                    <div class="flip-container">
+                        <div class="flipper">
+                            <div class="front">
+                                <h3 class="text-xl font-semibold">Salesforce and Oracle Integration</h3>
+                                <p>Unlock the full potential of your enterprise by harnessing the power of Salesforce and Oracle, two of the most robust platforms in the industry. Our integration services bridge the gap between these systems, ensuring that your data flows seamlessly, your processes are optimized, and your decision-making is data-drive.</p>
+                            </div>
+                            <div class="back">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi perferendis eos dolore, aperiam fugiat qui sint placeat est et, blanditiis rerum, at quis pariatur quo atque illum eveniet aliquam reiciendis.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white text-center p-4">
+        &copy; 2023 Angelica Erazo. All rights reserved.
+    </footer>
+    </main>
+</body>
+</html>
