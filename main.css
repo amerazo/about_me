@@ -39,8 +39,8 @@ ul.flex li img {
 /* height and width of the profile picture */
 .rounded-full {
     overflow: hidden;
-    height: 300px;
-    width: 300px; 
+    height: 200px;
+    width: 200px; 
 }
 
 .portfolio-container {

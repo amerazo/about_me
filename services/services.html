@@ -8,24 +8,30 @@
     <link rel="stylesheet" href="services.css">
     <script src="services.js"></script>
 </head>
-<body class="bg-gray-100 flex flex-col md:flex-row">
+<body class="bg-gray-100">
     <!-- Sidebar Nav -->
-    <nav class="w-full md:w-1/4 bg-blue-500 p-4 text-white">
+    <nav class="bg-blue-500 p-4 text-white md:w-1/4">
         <ul>
             <li><a href="/index.html">HOME</a></li>
             <li><a href="/services/services.html">SERVICES</a></li>
             <li><a href="/resources/resources.html">RESOURCES</a></li>
             <li><a href="https://docs.google.com/document/d/e/2PACX-1vS2IvjtLebdUsGGj85bQSQuxPGR67Zf16nlKtWUC66OLyc06Znlv57Rj9tEPG_S7w/pub">RESUME</a></li>
         </ul>
+                <!-- button to toggle navigation on smaller screens -->
+                <div class="md:hidden block">
+                    <button id="toggleNav" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Menu
+                    </button>
+                </div>
     </nav>
 
     <!-- Main Container Content -->
-    <main class="w-full md:w-3/4 p-4">
-        <div class="container mx-auto my-8 p-4 bg-white rounded-lg shadow-lg">
+    <main class="p-4">
+        <div class="container mx-auto my-8 bg-white rounded-lg shadow-lg">
             <h2 class="text-2xl font-semibold mb-4">Services Offered</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                 <!-- Service Card 1 -->
-                <div class="service-card md:w-1/2" onclick="flipCard(this)">
+                <div class="service-card md:w-1/2 p-4" onclick="flipCard(this)">
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
@@ -40,7 +46,7 @@
                 </div>
                 
                 <!-- Service Card 2 -->
-                <div class="service-card md:w-1/2" onclick="flipCard(this)">
+                <div class="service-card md:w-1/2 p-4" onclick="flipCard(this)">
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
@@ -55,7 +61,7 @@
                 </div>
 
                 <!-- Service Card 3 -->
-                <div class="service-card md:w-1/2" onclick="flipCard(this)">
+                <div class="service-card md:w-1/2 p-4" onclick="flipCard(this)">
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
@@ -70,12 +76,12 @@
                 </div>
 
                 <!-- Service Card 4 -->
-                <div class="service-card md:w-1/2" onclick="flipCard(this)">
+                <div class="service-card md:w-1/2 p-4" onclick="flipCard(this)">
                     <div class="flip-container">
                         <div class="flipper">
                             <div class="front">
                                 <h3 class="text-xl font-semibold">Salesforce and Oracle Integration</h3>
-                                <p>Unlock the full potential of your enterprise by harnessing the power of Salesforce and Oracle, two of the most robust platforms in the industry. Our integration services bridge the gap between these systems, ensuring that your data flows seamlessly, your processes are optimized, and your decision-making is data-drive.</p>
+                                <p>Unlock the full potential of your enterprise by harnessing the power of Salesforce and Oracle, two of the most robust platforms in the industry. Our integration services bridge the gap between these systems, ensuring that your data flows seamlessly, your processes are optimized, and your decision-making is data-driven.</p>
                             </div>
                             <div class="back">
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi perferendis eos dolore, aperiam fugiat qui sint placeat est et, blanditiis rerum, at quis pariatur quo atque illum eveniet aliquam reiciendis.</p>
@@ -83,6 +89,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Add more service cards here as needed -->
             </div>
         </div>
     <!-- Footer -->
@@ -92,3 +100,4 @@
     </main>
 </body>
 </html>
+

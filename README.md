@@ -47,6 +47,8 @@ As someone interested in technology trends and advancements, I'm excited to invi
 
 
 
-
+### Challenges & Solutions
+- **Flip card component** It was a challenge figuring out the logic for flipping the cards. To resolve for this, I had to create a front and back to the card component to be able to flip it to context.
+- **Responsive Design** Learning how to use Tailwind CSS framework for responsive design was a challenge due to the components that needed to minimize in size like the nav bar menu and the profile picture in the index.html file.
 
 

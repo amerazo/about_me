@@ -19,3 +19,7 @@ if (toggleButton && navList) {
         navList.classList.toggle('hidden');
     });
 }
+
+
+console.log(toggleButton);
+console.log(navList);
