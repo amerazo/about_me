@@ -7,9 +7,12 @@ Angelica Erazo's AboutMe.
 https://about-me-jdxw.onrender.com/
 https://amerazo.github.io/about_me/
 
-## WireFrame
+## WireFrame && Color Selection
 
 ![Wireframe](https://i.imgur.com/5wUQHCW.jpg)
+![ColorSelection] (https://imgur.com/gallery/aw3vjxC)
+![ColorSelection](https://imgur.com/gallery/2ujkWK9)
+
 
 ## User Stories 
 

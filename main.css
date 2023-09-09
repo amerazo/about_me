@@ -3,12 +3,12 @@ h1, h2 {
 }
 
 h1 {
-    color: blue;
+    color:  black;
     
 }
 
 h2 {
-    color: black;
+    color: #8c756a;
 }
 
 body {
@@ -32,7 +32,7 @@ ul.flex li img {
     border: 2px solid #333;
     border-radius: 70%;
     padding: 4px;
-    background-color: #fff;
+    background-color: #8c756a;
     margin-right: 20px;
 }
 
@@ -96,7 +96,6 @@ ul.flex li img {
 /* side bar nav styles */
 nav {
     flex: 10 10 20%; /* sidebar width */
-    background-color: #333;
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -108,7 +107,6 @@ nav {
 footer {
     bottom: 10px;
     width: 100%;
-    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0px;

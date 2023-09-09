@@ -1,11 +1,6 @@
 h1 {
     font-family: Arial, sans-serif;
-    color: blue;
-}
-
-h2 {
-    font-family: Arial, sans-serif;
-    color: black;
+    color: #8c756a
 }
 
 .animate-fade-in-out {
@@ -30,20 +25,16 @@ body {
     min-height: 100vh;
 }
 
+.custom-bg-color {
+    background-color: #e0dad1;
+}
+
+
 .container {
     max-width: 10000px;
     margin: 0 auto;
     padding: 0 20px;
     flex-grow: 1;
-}
-
-/* style the coding languages icons */
-ul.flex li img {
-    border: 2px solid #333;
-    border-radius: 70%;
-    padding: 4px;
-    background-color: #fff;
-    margin-right: 20px;
 }
 
 /* footer to stay at bottom*/
@@ -80,4 +71,3 @@ footer {
         font-size: 20px; 
     }
 }
-

@@ -1,23 +1,14 @@
-/* default syles for simplicy sake */
-body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
-}
-
 /* full-page background detz*/
 body {
     font-family: Arial, sans-serif;
     display: flex;
     margin: 0;
-    background-color: #f0f0f0;
     min-height: 100vh;
 }
 
 /* side bar nav styles */
 nav {
     flex: 10 10 20%; /* sidebar width */
-    background-color: #333;
-    color: #fff;
     min-height: 100vh;
     display: flex;
     flex-direction: column; /* sidebar is a column layout */
@@ -90,17 +81,16 @@ main {
 }
 
 .front {
-    background-color: #fff;
+    background-color: #e0dad1;
 }
 
 .back {
-    background-color: #f0f0f0;
+    background-color: #e0dad1;
     transform: rotateY(180deg);
 }
 
 /* footer style */
 footer {
-    background-color: #333;
     color: #fff;
     text-align: center;
     padding: 20px 0px;
@@ -118,4 +108,3 @@ footer {
         font-size: 14px; 
     }
 }
-
