@@ -103,6 +103,8 @@ nav {
     flex-direction: column; /* sidebar is a column layout */
 }
 
+
+/* footer styles */
 footer {
     bottom: 10px;
     width: 100%;
@@ -111,3 +113,4 @@ footer {
     text-align: center;
     padding: 20px 0px;
 }
+

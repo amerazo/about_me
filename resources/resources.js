@@ -10,16 +10,14 @@ function fadeInName() {
 // call the fadeInName function after the page loads
 window.addEventListener('load', fadeInName);
 
-// JS to toggle navigation on smaller screens
-const toggleButton = document.getElementById('toggleNav');
-const navList = document.querySelector('nav ul');
+// Define toggleNavButton and mobileNavList
+const toggleNavButton = document.getElementById('toggleNav');
+const mobileNavList = document.getElementById('mobileNavList');
 
-if (toggleButton && navList) {
-    toggleButton.addEventListener('click', () => {
-        navList.classList.toggle('hidden');
+// Toggle mobile navigation menu
+if (toggleNavButton && mobileNavList) {
+    toggleNavButton.addEventListener('click', () => {
+        mobileNavList.classList.toggle('hidden');
     });
 }
 
-
-console.log(toggleButton);
-console.log(navList);

@@ -3,12 +3,15 @@ function flipCard(card) {
     card.querySelector('.flipper').classList.toggle('flipped');
 }
 
-// JS to toggle navigation on smaller screens
-const toggleButton = document.getElementById('toggleNav');
-const navList = document.querySelector('nav ul');
+// define toggleNavButton and mobileNavList
+const toggleNavButton = document.getElementById('toggleNav');
+const mobileNavList = document.getElementById('mobileNavList');
 
-if (toggleButton && navList) {
-    toggleButton.addEventListener('click', () => {
-        navList.classList.toggle('hidden');
+// toggle mobile navigation menu
+if (toggleNavButton && mobileNavList) {
+    toggleNavButton.addEventListener('click', () => {
+        mobileNavList.classList.toggle('hidden');
     });
 }
+
+

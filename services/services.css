@@ -108,3 +108,14 @@ footer {
 } 
 
 
+/* responsive design for mobile and ipad */
+
+@media screen and (max-width: 768px) {
+    .service-card p {
+        font-size: 11px; 
+    }
+    .service-card h3 {
+        font-size: 14px; 
+    }
+}
+
