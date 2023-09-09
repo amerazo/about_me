@@ -4,10 +4,11 @@ Angelica Erazo's AboutMe.
 
 # GitHub Pages & OnRender
 
-https://about-me-jdxw.onrender.com/
-https://amerazo.github.io/about_me/
+### https://about-me-jdxw.onrender.com/
+### https://amerazo.github.io/about_me/
 
-## WireFrame && Color Selection
+
+## Wireframe && Colors
 
 ![Wireframe](https://i.imgur.com/5wUQHCW.jpg)
 ![Wireframe](https://imgur.com/f1Bpgq4.jpg)
@@ -44,6 +45,9 @@ As someone interested in technology trends and advancements, I'm excited to invi
 - **HTML:** HTML forms the structure of web pages, and I'll use it to create the content and layout of my website. It's the backbone of every web application.
 
 - **CSS:** Cascading Style Sheets (CSS) will help me style and design and I plan to use Tailwind CSS.
+
+- **Tailwind CSS:** Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap, it does not provide a series of predefined classes for elements such as buttons or tables
+
 
 ------------------
 ### MVP & Stretch 
