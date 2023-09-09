@@ -4,7 +4,7 @@ Angelica Erazo's AboutMe.
 
 # GitHub Pages & OnRender
 
-https://about-me-jdxw.onrender.com/services/services.html
+https://about-me-jdxw.onrender.com/
 https://amerazo.github.io/about_me/
 
 ## WireFrame
