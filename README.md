@@ -10,8 +10,8 @@ https://amerazo.github.io/about_me/
 ## WireFrame && Color Selection
 
 ![Wireframe](https://i.imgur.com/5wUQHCW.jpg)
-![ColorSelection] (https://imgur.com/a/aw3vjxC)
-![ColorSelection](https://imgur.com/2ujkWK9)
+![Wireframe] (https://imgur.com/a/aw3vjxC.jpg)
+![Wireframe](https://imgur.com/2ujkWK9.jpg)
 
 
 ## User Stories 
